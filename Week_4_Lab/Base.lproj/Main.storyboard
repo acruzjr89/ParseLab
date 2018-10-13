@@ -13,7 +13,7 @@
         <!--LoginViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController title="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Week_4_Lab" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,6 @@
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
                                     <action selector="registerUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pnx-7O-tSy"/>
-                                    <action selector="registeruser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4M4-F2-tsI"/>
                                     <action selector="signUp:" destination="spR-5c-yQb" eventType="touchUpInside" id="YUI-Ll-u1u"/>
                                 </connections>
                             </button>
@@ -59,10 +58,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="loginUser" destination="WA3-Bb-X10" id="uCh-hh-g6n"/>
                         <outlet property="passwordField" destination="pgm-AD-bs9" id="i4e-8Y-SG0"/>
-                        <outlet property="registerButton" destination="IMT-hI-eeH" id="hIa-Zr-fxU"/>
-                        <outlet property="userField" destination="BnL-ST-smA" id="oIi-tu-aQX"/>
                         <outlet property="usernameField" destination="BnL-ST-smA" id="hv9-Kv-Rca"/>
                     </connections>
                 </viewController>
